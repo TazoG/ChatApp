@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA4E7D29292290D300414F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4E7D28292290D200414F31 /* Main.storyboard */; };
 		DA8DE5BA2922582500E3DAF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DE5B92922582500E3DAF6 /* AppDelegate.swift */; };
 		DA8DE5BC2922582500E3DAF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DE5BB2922582500E3DAF6 /* SceneDelegate.swift */; };
-		DA8DE5BE2922582500E3DAF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DE5BD2922582500E3DAF6 /* ViewController.swift */; };
-		DA8DE5C12922582500E3DAF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8DE5BF2922582500E3DAF6 /* Main.storyboard */; };
 		DA8DE5C32922582700E3DAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8DE5C22922582700E3DAF6 /* Assets.xcassets */; };
 		DA8DE5C62922582700E3DAF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8DE5C42922582700E3DAF6 /* LaunchScreen.storyboard */; };
+		DA8DE5D12922768900E3DAF6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DE5D02922768900E3DAF6 /* RegisterViewController.swift */; };
+		DA8DE5D32922769C00E3DAF6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DE5D22922769C00E3DAF6 /* LoginViewController.swift */; };
+		DA8DE5D5292276AD00E3DAF6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DE5D4292276AD00E3DAF6 /* ChatViewController.swift */; };
+		DA8DE5D72922790700E3DAF6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DE5D62922790700E3DAF6 /* WelcomeViewController.swift */; };
 		DC33D9A9CD93E5E7F022DCE5 /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6B6615B2F7B16872DB03C1 /* Pods_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,14 +23,17 @@
 		2E73650D83C96649C026E495 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 		380795EC39288D5A7B1A683D /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 		5E6B6615B2F7B16872DB03C1 /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4E7D28292290D200414F31 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DA8DE5B62922582500E3DAF6 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8DE5B92922582500E3DAF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA8DE5BB2922582500E3DAF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA8DE5BD2922582500E3DAF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA8DE5C02922582500E3DAF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA8DE5C22922582700E3DAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA8DE5C52922582700E3DAF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA8DE5C72922582700E3DAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8DE5D02922768900E3DAF6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DA8DE5D22922769C00E3DAF6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DA8DE5D4292276AD00E3DAF6 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		DA8DE5D62922790700E3DAF6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +88,42 @@
 			children = (
 				DA8DE5B92922582500E3DAF6 /* AppDelegate.swift */,
 				DA8DE5BB2922582500E3DAF6 /* SceneDelegate.swift */,
-				DA8DE5BD2922582500E3DAF6 /* ViewController.swift */,
-				DA8DE5BF2922582500E3DAF6 /* Main.storyboard */,
+				DA8DE5CE292274FA00E3DAF6 /* Model */,
+				DA8DE5CD292274EB00E3DAF6 /* Views */,
+				DA8DE5CF2922751200E3DAF6 /* Controller */,
 				DA8DE5C22922582700E3DAF6 /* Assets.xcassets */,
 				DA8DE5C42922582700E3DAF6 /* LaunchScreen.storyboard */,
 				DA8DE5C72922582700E3DAF6 /* Info.plist */,
 			);
 			path = ChatApp;
+			sourceTree = "<group>";
+		};
+		DA8DE5CD292274EB00E3DAF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA4E7D28292290D200414F31 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA8DE5CE292274FA00E3DAF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DA8DE5CF2922751200E3DAF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA8DE5D62922790700E3DAF6 /* WelcomeViewController.swift */,
+				DA8DE5D02922768900E3DAF6 /* RegisterViewController.swift */,
+				DA8DE5D22922769C00E3DAF6 /* LoginViewController.swift */,
+				DA8DE5D4292276AD00E3DAF6 /* ChatViewController.swift */,
+			);
+			name = Controller;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +137,7 @@
 				DA8DE5B22922582500E3DAF6 /* Sources */,
 				DA8DE5B32922582500E3DAF6 /* Frameworks */,
 				DA8DE5B42922582500E3DAF6 /* Resources */,
+				958F7664D7243505006B67D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,9 +186,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4E7D29292290D300414F31 /* Main.storyboard in Resources */,
 				DA8DE5C62922582700E3DAF6 /* LaunchScreen.storyboard in Resources */,
 				DA8DE5C32922582700E3DAF6 /* Assets.xcassets in Resources */,
-				DA8DE5C12922582500E3DAF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +217,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		958F7664D7243505006B67D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatApp/Pods-ChatApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatApp/Pods-ChatApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatApp/Pods-ChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -188,23 +241,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8DE5BE2922582500E3DAF6 /* ViewController.swift in Sources */,
 				DA8DE5BA2922582500E3DAF6 /* AppDelegate.swift in Sources */,
 				DA8DE5BC2922582500E3DAF6 /* SceneDelegate.swift in Sources */,
+				DA8DE5D32922769C00E3DAF6 /* LoginViewController.swift in Sources */,
+				DA8DE5D72922790700E3DAF6 /* WelcomeViewController.swift in Sources */,
+				DA8DE5D5292276AD00E3DAF6 /* ChatViewController.swift in Sources */,
+				DA8DE5D12922768900E3DAF6 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA8DE5BF2922582500E3DAF6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA8DE5C02922582500E3DAF6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA8DE5C42922582700E3DAF6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -345,6 +393,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -375,6 +426,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
