@@ -6,4 +6,6 @@ target 'ChatApp' do
 
   # Pods for ChatApp
 
+pod 'CLTypingLabel'
+
 end
