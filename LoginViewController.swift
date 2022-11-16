@@ -11,7 +11,7 @@ import FirebaseFirestore
 import FirebaseAuth
 
 class LoginViewController: UIViewController {
-
+    
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
@@ -24,11 +24,9 @@ class LoginViewController: UIViewController {
                     print(err.localizedDescription)
                 } else {
                     // go to chat ;)
-                    self.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    self.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
-              
             }
         }
     }
-    
 }

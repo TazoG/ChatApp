@@ -168,7 +168,7 @@
                     <connections>
                         <outlet property="PasswordTextField" destination="hLb-P9-NkF" id="YAm-XA-cJV"/>
                         <outlet property="emailTextField" destination="u72-XV-6FN" id="bch-fI-rLx"/>
-                        <segue destination="lwd-AH-u8E" kind="show" identifier="RegisterViewController" id="1uj-7Z-zAt"/>
+                        <segue destination="lwd-AH-u8E" kind="show" identifier="RegisterToChat" id="1uj-7Z-zAt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -377,11 +377,8 @@
             <point key="canvasLocation" x="823.1884057971015" y="134.59821428571428"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="y7D-jv-BlJ"/>
-    </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="XB2-DR-7xf"/>
+        <segue reference="1uj-7Z-zAt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="119"/>
