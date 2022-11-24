@@ -6,8 +6,7 @@ target 'ChatApp' do
 
   # Pods for ChatApp
 
-pod 'CLTypingLabel'
-pod 'FirebaseAuth'
-pod 'FirebaseFirestore'
+  pod 'CLTypingLabel'
+
 
 end
